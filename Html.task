@@ -1,1 +1,280 @@
-create Html.task file
+   1. create Html.task file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+  
+
+  2.
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+3.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            width: 350px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        input, textarea {
+            width: 100%;
+            margin: 8px 0;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #777;
+        }
+        button {
+            padding: 10px 15px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Contact Us</h2>
+
+    <div class="container">
+        <form>
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Phone:</label>
+            <input type="tel" required>
+
+            <label>Subject:</label>
+            <input type="text" required>
+
+            <label>Message:</label>
+            <textarea rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+4. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technology List</title>
+</head>
+<body>
+
+    <h1>Programming Language</h1>
+    <ul>
+        <li>JavaScript</li>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue.js</li>
+        <li>Python</li>
+        <li>Django Framework</li>
+        <li>Flask Framework</li>
+        <li>Java</li>
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+    </ul>
+
+    <h1>Database</h1>
+    <ul>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cassandra</li>
+    </ul>
+
+</body>
+</html>
+
+</html>
+
+6.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+</head>
+
+<body>
+    <h2>Employee Details Form</h2>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" required><br><br>
+
+        <label>Employee Type:</label><br>
+
+        <!-- Grouped radio buttons (same name="type") -->
+        <input type="radio" name="type" value="salaried" required> Salaried <br>
+        <input type="radio" name="type" value="business" required> Own Business <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
+
+9. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Default Values Form</title>
+</head>
+<body>
+
+<h2>Form With Default Values</h2>
+
+<form>
+
+    <!-- Text -->
+    <label>Name:</label>
+    <input type="text" value="John Doe"><br><br>
+
+    <!-- Email -->
+    <label>Email:</label>
+    <input type="email" value="john@example.com"><br><br>
+
+    <!-- Number -->
+    <label>Age:</label>
+    <input type="number" value="25"><br><br>
+
+    <!-- Password -->
+    <label>Password:</label>
+    <input type="password" value="123456"><br><br>
+
+    <!-- Radio buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <!-- Checkbox -->
+    <label>Skills:</label><br>
+    <input type="checkbox" checked> HTML<br>
+    <input type="checkbox"> CSS<br>
+    <input type="checkbox" checked> JavaScript<br><br>
+
+    <!-- Select dropdown -->
+    <label>Country:</label>
+    <select>
+        <option>India</option>
+        <option selected>USA</option>
+        <option>UK</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label>About:</label><br>
+    <textarea rows="4">This is default text inside textarea.</textarea><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
+
+
+10.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Highlight Text</title>
+</head>
+<body>
+
+    <p><mark>"HTML &amp; CSS is awesome"</mark></p>
+
+</body>
+</html>
+
+11.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Input Elements</title>
+</head>
+<body>
+
+<h2>HTML Form With All Input Types</h2>
+
+<form>
+
+    <!-- Text -->
+    <label>Text:</label>
+    <input type="text" value="John"><br><br>
+
+    <!-- Password -->
+    <label>Password:</label>
+    <input type="password" value="12345"><br><br>
+
+    <!-- Email -->
+    <label>Email:</label>
+    <input type="email" value="example@mail.com"><br><br>
+
+    <!-- Number -->
+    <label>Number:</label>
+    <input type="number" value="10"><br><br>
+
+    <!-- Tel -->
+    <label>Phone:</label>
+    <input type="tel" value="9876543210"><br><br>
+
+    <!-- URL -->
+    <label>Website:</label>
+    <input type="url" value="https://e
