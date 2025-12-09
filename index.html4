@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+</head>
+<body>
+
+<h2>Employee Details Form</h2>
+
+<form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" required><br><br>
+
+    <label>Employee Type:</label><br>
+
+    <!-- Grouped radio buttons (same name="empType") -->
+    <input type="radio" id="salaried" name="empType" value="Salaried" required>
+    <label for="salaried">Salaried</label><br>
+
+    <input type="radio" id="business" name="empType" value="Own Business" required>
+    <label for="business">Own Business</label><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+

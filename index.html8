@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Input Types</title>
+</head>
+<body>
+
+<h2>Form With All Input Elements</h2>
+
+<form>
+
+    <label>Text:</label>
+    <input type="text" value="Sample Text"><br><br>
+
+    <label>Password:</label>
+    <input type="password" value="123456"><br><br>
+
+    <label>Email:</label>
+    <input type="email" value="demo@example.com"><br><br>
+
+    <label>Number:</label>
+    <input type="number" value="10"><br><br>
+
+    <label>Radio:</label><br>
+    <input type="radio" name="gender" checked> Male
+    <input type="radio" name="gender"> Female<br><br>
+
+    <label>Checkbox:</label><br>
+    <input type="checkbox" checked> HTML
+    <input type="checkbox"> CSS
+    <input type="checkbox"> JS<br><br>
+
+    <label>Date:</label>
+    <input type="date" value="2024-01-01"><br><br>
+
+    <label>Time:</label>
+    <input type="time" value="12:00"><br><br>
+
+    <label>Month:</label>
+    <input type="month" value="2024-05"><br><br>
+
+    <label>Week:</label>
+    <input type="week" value="2024-W10"><br><br>
+
+    <label>Color:</label>
+    <input type="color" value="#ff0000"><br><br>
+
+    <label>Range:</label>
+    <input type="range" value="50"><br><br>
+
+    <label>File Upload:</label>
+    <input type="file"><br><br>
+
+    <label>Telephone:</label>
+    <input type="tel" value="+1234567890"><br><br>
+
+    <label>URL:</label>
+    <input type="url" value="https://example.com"><br><br>
+
+    <label>Search:</label>
+    <input type="search" value="Search text"><br><br>
+
+    <label>Hidden Input:</label>
+    <input type="hidden" value="Hidden Value"><br><br>
+
+    <label>Select Dropdown:</label>
+    <select>
+        <option>Option 1</option>
+        <option selected>Option 2</option>
+        <option>Option 3</option>
+    </select><br><br>
+
+    <label>Textarea:</label><br>
+    <textarea rows="3" cols="30">This is a textarea</textarea><br><br>
+
+    <button type="button">Click Me</button>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
